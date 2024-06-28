@@ -13,3 +13,6 @@ function multiply(a, b){
 
 Courses: RS School stage#0 (in process)
 
+Languages: English - A2 (B1 is coming soon...)
+
+

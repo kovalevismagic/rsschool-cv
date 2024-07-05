@@ -1,13 +1,61 @@
+@font-face {
+  font-family: Lora, sans-serif;
+  src: url("assets/fonts/Lora.zip");
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
 body {
-  background-color: lightblue;
+  font-family: Lora, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: turquoise ;
 }
 
-h1 {
-  color: white;
-  text-align: center;
+.header {
+  border: 1px solid black;
 }
 
-p {
-  font-family: verdana;
-  font-size: 16px;
+.nav-list {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
 }
+
+.nav-link {
+  margin: 0 20px;
+  line-height: 50px;
+  transition: 0.5s;
+}
+
+.main {
+  border: 1px solid black;
+}
+
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.section {
+  width: 50%;
+}
+
+.footer {
+  border: 1px solid black;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+
